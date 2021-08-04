@@ -1,0 +1,10 @@
+CREATE TABLE Usuario (
+  idUsuario INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(45) NULL,
+  cpf VARCHAR(11) NULL,
+  telefone VARCHAR(20) NULL,
+  email VARCHAR(45) NULL,
+  PRIMARY KEY(idUsuario)
+);
+
+
